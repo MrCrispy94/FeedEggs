@@ -217,7 +217,7 @@ export default function App() {
   // --- Render Helpers ---
 
   const getContainerClass = () => {
-    let base = "relative w-full h-full bg-[#9ca3af] border-[8px] transition-colors duration-300 ";
+    let base = "relative w-full h-full min-h-screen bg-[#9ca3af] border-[8px] transition-colors duration-300 ";
     if (gameState.isLinesRed) return base + "border-red-600";
     return base + "border-black";
   };
