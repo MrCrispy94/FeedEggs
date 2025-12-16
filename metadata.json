@@ -1,0 +1,5 @@
+{
+  "name": "Egg Game",
+  "description": "A very simple game about feeding eggs to an eggman.",
+  "requestFramePermissions": []
+}
