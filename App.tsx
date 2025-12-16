@@ -217,7 +217,7 @@ export default function App() {
   // --- Render Helpers ---
 
   const getContainerClass = () => {
-    let base = "relative w-[800px] h-[600px] bg-[#9ca3af] border-[8px] transition-colors duration-300 ";
+    let base = "relative w-full h-full bg-[#9ca3af] border-[8px] transition-colors duration-300 ";
     if (gameState.isLinesRed) return base + "border-red-600";
     return base + "border-black";
   };
@@ -232,7 +232,7 @@ export default function App() {
 
   return (
     <div 
-        className="w-full h-full flex items-center justify-center bg-[#333]"
+        className="w-full h-full overflow-hidden bg-[#333]"
         onMouseMove={handleMouseMove}
         onClick={handleGlobalClick}
     >
