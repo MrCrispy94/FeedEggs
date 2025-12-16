@@ -232,7 +232,7 @@ export default function App() {
 
   return (
     <div 
-        className="w-full h-full overflow-hidden bg-[#333]"
+        className="w-full min-h-screen overflow-hidden bg-[#333]"
         onMouseMove={handleMouseMove}
         onClick={handleGlobalClick}
     >
